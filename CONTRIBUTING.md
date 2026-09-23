@@ -5,7 +5,7 @@ if a value looks wrong against the papers, please open an issue with the value y
 
 ## Working on the code
 
-    git clone https://github.com/USERNAME/vitalpriors
+    git clone https://github.com/meshlab/vitalpriors
     cd vitalpriors
     pip install -e ".[test]"
     pytest
