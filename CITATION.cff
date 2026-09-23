@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: vitalpriors
+message: "If you use this software, please cite it, and cite the papers whose data it decodes."
+type: software
+authors:
+  - family-names: Goodwin
+    given-names: Andrew
+license: MIT
+repository-code: "https://github.com/USERNAME/vitalpriors"
+abstract: >-
+  Reference distributions of physiological measurements in critically ill children, decoded from
+  published interactive figures: cuff against invasive blood pressure by age, and oxygen dissociation
+  distributions.
+references:
+  - type: article
+    authors:
+      - family-names: Goodwin
+        given-names: Andrew
+      - family-names: Mazwi
+        given-names: Mjaye L
+      - family-names: Somer
+        given-names: Jacob
+      - family-names: Schwartz
+        given-names: Steven M
+      - family-names: McEwan
+        given-names: Alistair
+      - family-names: Eytan
+        given-names: Danny
+    title: "Blood pressure in critically ill children: exploratory analyses of concurrent invasive and noninvasive measurements"
+    journal: "Critical Care Explorations"
+    year: 2021
+    volume: 3
+    issue: 11
+    start: e0586
+  - type: article
+    authors:
+      - family-names: Eytan
+        given-names: Danny
+      - family-names: Mazwi
+        given-names: Mjaye L
+      - family-names: Goodwin
+        given-names: Andrew
+      - family-names: Laussen
+        given-names: Peter C
+    title: "Revisiting oxygen dissociation curves and bedside measured arterial saturation in critically ill children"
+    journal: "Intensive Care Medicine"
+    year: 2019
+    volume: 45
+    start: 1832
+    end: 1834

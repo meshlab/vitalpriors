@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vitalpriors"
+version = "0.3.0"
+description = "Reference distributions of physiological measurements in critically ill children, decoded from published interactive figures"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+authors = [{ name = "Andrew Goodwin" }]
+
+[project.scripts]
+vitalpriors = "vitalpriors.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
