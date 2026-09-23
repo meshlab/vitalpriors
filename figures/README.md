@@ -13,7 +13,7 @@ Please cite those papers when using the figures or the data behind them.
 With GitHub Pages turned on for this repository (Settings -> Pages -> Deploy from a branch -> `main`, folder
 `/ (root)`), they appear at:
 
-    https://USERNAME.github.io/vitalpriors/figures/
+    https://meshlab.github.io/vitalpriors/figures/
 
 ## Note on the oxygen figure
 
