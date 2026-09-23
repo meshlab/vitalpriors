@@ -87,7 +87,7 @@ them locally.
 ## The figures themselves
 
 `figures/` mirrors the two published interactive figures whose data this library reads, so they remain
-available. With GitHub Pages enabled they are served at `https://USERNAME.github.io/vitalpriors/figures/`.
+available. With GitHub Pages enabled they are served at `https://meshlab.github.io/vitalpriors/figures/`.
 
 ## Documentation
 
