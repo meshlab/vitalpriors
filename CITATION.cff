@@ -6,7 +6,7 @@ authors:
   - family-names: Goodwin
     given-names: Andrew
 license: MIT
-repository-code: "https://github.com/USERNAME/vitalpriors"
+repository-code: "https://github.com/meshla/vitalpriors"
 abstract: >-
   Reference distributions of physiological measurements in critically ill children, decoded from
   published interactive figures: cuff against invasive blood pressure by age, and oxygen dissociation
