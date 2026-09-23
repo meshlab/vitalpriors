@@ -84,6 +84,11 @@ readings can hold few pairs: check `n_at` before relying on them.
 The decoded data are not included in this repository. Obtain the figure files from the source and convert
 them locally.
 
+## The figures themselves
+
+`figures/` mirrors the two published interactive figures whose data this library reads, so they remain
+available. With GitHub Pages enabled they are served at `https://USERNAME.github.io/vitalpriors/figures/`.
+
 ## Documentation
 
 - `docs/getting-started.md`: install, convert the figures, and the common calls.

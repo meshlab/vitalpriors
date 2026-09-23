@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive figures: physiological measurement in critically ill children</title>
+<style>
+ body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 760px; margin: 0 auto;
+        padding: 40px 20px 80px; color: #1c2a31; line-height: 1.5; background: #f5f8f9; }
+ h1 { font-size: 1.6rem; margin-bottom: 4px; }
+ .lede { color: #5b6d75; margin-top: 0; }
+ .card { background: #fff; border: 1px solid #d5dfe3; border-radius: 12px; padding: 20px 22px; margin: 20px 0; }
+ h2 { font-size: 1.15rem; margin: 0 0 6px; }
+ .cite { font-size: 0.92rem; color: #5b6d75; }
+ a.go { display: inline-block; margin-top: 10px; background: #2c6173; color: #fff; text-decoration: none;
+        padding: 8px 16px; border-radius: 999px; font-size: 0.95rem; }
+ footer { color: #5b6d75; font-size: 0.9rem; margin-top: 30px; }
+</style>
+</head>
+<body>
+<h1>Interactive figures</h1>
+<p class="lede">Distributions of physiological measurement in critically ill children, from two published
+studies. Mirrored here so they remain available; each figure runs entirely in your browser.</p>
+
+<div class="card">
+  <h2>Cuff against invasive blood pressure</h2>
+  <p>Paired oscillometric and intra-arterial readings, by age group and pressure type: what an arterial line
+  would have shown for a given cuff reading.</p>
+  <p class="cite">Goodwin A, Mazwi ML, Somer J, Schwartz SM, McEwan A, Eytan D. Blood pressure in critically ill
+  children: exploratory analyses of concurrent invasive and noninvasive measurements.
+  <em>Crit Care Explor</em> 2021;3(11):e0586.</p>
+  <a class="go" href="bp-comparison/">Open the figure</a>
+</div>
+
+<div class="card">
+  <h2>Oxygen dissociation</h2>
+  <p>Measured distributions of blood-gas oxygen tension against saturation, with the effect of age, pH and
+  carbon dioxide, compared with the classic curve.</p>
+  <p class="cite">Eytan D, Mazwi ML, Goodwin A, et al. Revisiting oxygen dissociation curves and bedside
+  measured arterial saturation in critically ill children. <em>Intensive Care Med</em> 2019;45:1832&ndash;1834.</p>
+  <a class="go" href="oxygen-dissociation/">Open the figure</a>
+</div>
+
+<footer>
+<p>Please cite the papers above when using these figures or the data behind them. A Python library that reads
+the same data into analysable form is available separately (<code>vitalpriors</code>).</p>
+</footer>
+</body>
+</html>

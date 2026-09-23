@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="ODC_sketch_004.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+  <script language="javascript" type="text/javascript" src="data/data.js"></script>
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <!--<style> body { padding: 0; margin: 0; } </style> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Oxygen Dissociation Distributions</title>
+</head>
+
+<body>
+
+  <header>
+    <div id="logo"><img src="images/logo-icon_50px.png">Oxygen Dissociation Distributions</div>
+    <nav>  
+
+    </nav>
+  </header>
+
+  <section id="pageContent">
+    <main role="main">
+      <article>
+
+    <div id="sketch-holder">
+     
+    </div>
+        <br />
+ 
+    <h3>Using big-data to explore the nature of the oxygen dissociation distribution.</h3>
+    <br />
+
+        <p>The oxygen–hemoglobin dissociation curve, or oxygen dissociation curve, relates the proportion of hemoglobin in its saturated form (SO<sub>2</sub>) on the vertical axis against the oxygen tension (pO<sub>2</sub>) on the horizontal axis. 
+        As taught in basic physiology courses it has profound clinical importance, applicable to numerous situations of health and disease, from cardiogenic shock to respiratory failure. 
+        It is fundamental to the practice of critical care as it is a major determinant of oxygen delivery. 
+        Originally explored over a century ago, there are also well-described modifiers of this curve, shifting it to the left or the right, such as the blood acidity (pH), pCO<sub>2</sub> tension, fetal hemoglobin levels, temperature and 2,3 DPG concentrations. 
+        Its sigmoidal shape received attention by many prominent physiologists - One of the earliest mathematical descriptions is the well-known Hill’s equation, a simple equation proposed in 1910. 
+        Following this, other models have been developed. 
+        However, these equations have been derived using relatively few measurements and in a non-clinical setting. 
+        Additionally, the oxygen dissociation curve as described classically is a single curve, theoretically without any variability once the above-mentioned modifiers have been accounted for.</p>
+        <br />
+
+        <p>We sought to use big data from a large population of patients to examine this relationship in "real-life settings". 
+        Collecting over 100,000 blood gas samples taken from critically-ill children admitted to the intensive care unit at the Hospital for Sick Children (Sickkids) in Toronto we explored the nature of the relation between pO<sub>2</sub> and SO<sub>2</sub>.</p>
+<br />
+        <p>This app presents the Oxygen Dissociation Distribution:  A Two-dimensional distribution relating pO<sub>2</sub> and SO<sub>2</sub> derived from 112,101 blood gas tests, bin size 1 mmHg by 1%. 
+        Probability density presented using a gray colormap. 
+        Using the mouse cursor, the partial conditional distributions of pO<sub>2</sub> at a given SO<sub>2</sub> value and vice versa can be explored. The dashed green line represents the "classic" oxygen dissociation curve as described in <i>Simple, accurate equations for
+human blood O<sub>2</sub> dissociation computations</i> (Severinghaus 1979).</p>
+<br />
+        <p>We also allow testing the effects of pH, pCO<sub>2</sub> and age on the oxygen dissociation distribution. 
+        In order to isolate the effects of either pH or pCO<sub>2</sub> on the dissociation distribution, when testing for example the effects of pCO<sub>2</sub>, we only included patients that had a normal pH (7.35-7.45) and similarly when testing the effects of pH we only included patients with a normal pCO<sub>2</sub> (35-45mmHg). 
+        For ease of presentation, distributions were smoothed using a 2-D Gaussian smoothing kernel with standard deviation of one.</p>
+      
+<br /><br />    
+      <p>
+      <b>Abbreviations:</b></p><br />
+<p>
+<ul>
+<li>Oxygen Dissociation Curve (ODC)</li>
+<li>Oxygen Dissociation Distribution (ODD)</li>
+<li>Peripheral oxygen saturation derived from the pulse oximeter – SpO<sub>2</sub></li>
+<li>Arterial hemoglobin oxygen saturation – SaO<sub>2</sub></li>
+<li>Venous hemoglobin oxygen saturation – SvO<sub>2</sub></li>
+<li>Blood hemoglobin oxygen saturation - SO<sub>2</sub></li>
+<li>Partial pressure of Oxygen in the blood - pO<sub>2</sub></li>
+<li>Partial pressure of Carbon Dioxide in the blood - pCO<sub>2</sub></li>
+</ul>
+</p>
+      
+      
+      </article>
+      
+    </main>
+
+  <b><i><a href="https://link.springer.com/article/10.1007%2Fs00134-019-05792-x">Revisiting Oxygen dissociation curves and bedside measured arterial saturation in critically-ill children (Eytan et. al. 2019)</a></i></b>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2019 Laussen Labs <a href="https://laussenlabs.ca/"  >LaussenLabs.ca</a></p>
+
+  </footer>
+
+
+
+
+</body>
+</html>
